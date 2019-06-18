@@ -1,0 +1,11 @@
+Cuisinart Cofffee Maker
+
+automatic_brew: True
+bean_grinder: False
+cups_able_to_brew: 12
+warmer: True
+
+set_brew_time: This method uses a timer which is set to 5:45am. Brews coffee at this time.
+grind_beans: This method does nothing because the attribute is false for this coffee maker.
+brew_coffee: This method brews coffee to the number of cups put in, up to 12.
+keep_coffee_warm: This method keeps coffee warm for up to 2 hours.
