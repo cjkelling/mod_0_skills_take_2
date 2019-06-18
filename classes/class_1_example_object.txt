@@ -1,0 +1,11 @@
+Self-Checkout Register
+
+cashier_operated: False
+scanner_type: manual scanner flatbed
+electronic_touchscreen: True
+cash_drawer_type: inside unit
+
+give_change: Gives change due back from purchase.
+open_cash_drawer: Cash drawer is inside machine. Does not open for user to see, but still issues money.
+lookup_item: Enter item number on touchscreen and system looks it up.
+scan_item: Uses scanner to read item and show information like price.
