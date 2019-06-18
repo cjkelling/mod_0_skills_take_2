@@ -1,0 +1,11 @@
+Register
+
+cashier_operated: (boolean)
+scanner_type: (string)
+electronic_touchscreen: (boolean)
+cash_drawer_type: (string)
+
+give_change:(Gives change. This method uses the cashier_operated and cash_drawer_type attributes.)
+open_cash_drawer:(Opens cash drawer. This method uses the cashier_operated and cash_drawer_type attributes.)
+lookup_item:(Looks up item. This uses the electronic_touchscreen and the scanner_type attributes.)
+scan_item: (Scans barcode to lookup item and enter price. Uses the scanner type and cashier_operated attributes.)
