@@ -1,0 +1,11 @@
+Coffee Maker
+
+automatic_brew: (boolean)
+bean_grinder: (boolean)
+cups_able_to_brew: (integer)
+warmer: (boolean)
+
+set_brew_time: (Brews coffee at a user-selected time. Uses automatic_brew attribute.)
+grind_beans: (Grinds beans so they are fresh when making coffee. Uses bean_grinder attribute.)
+brew_coffee: (Brews coffee. Uses the cups_able_to_brew attribute.)
+keep_coffee_warm: (Keeps coffee warm after being brewed. Uses warmer attribute.)
